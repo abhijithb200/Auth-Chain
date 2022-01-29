@@ -2,11 +2,16 @@ import React, { Component } from 'react';
 import Web3  from 'web3';
 import './App.css';
 import TwoFA from '../abis/TwoFA.json'
+import Register from './Register';
+import { Button ,Form ,Navbar ,Container , Nav} from 'react-bootstrap';
+import Login from './Login';
+import { config } from 'dotenv';
 
 class App extends Component {
   async componentWillMount(){
     await this.loadWeb3()
     await this.loadBlockchainData()
+    
   }
 
   async loadWeb3(){
@@ -40,50 +45,37 @@ class App extends Component {
 constructor(props){
   super(props)
   this.state = {
-    loading:true
+    loading:true,
+    status:'register'
   }
-}
-
-async checkState(){
-  const a = await this.state.twofa.methods.docs(110, this.state.account).call()
-  console.log(a)
-}
-async createState(){
-  const secret = 110
-  this.state.twofa.methods.createDocument(secret).send( { from: this.state.account})
-    .once('receipt',(receipt)=>{
-      console.log(receipt,'hey')
-    })
 }
 
 
   render() {
     return (
-      <div>
-        <nav className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-          <a
-            className="navbar-brand col-sm-3 col-md-2 mr-0"
-            href="http://www.dappuniversity.com/bootcamp"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            AuthChain
-          </a>
-        </nav>
+      <div className="container">
+        <h1></h1>
+        <Navbar bg="dark" variant="dark">
+    <Container>
+    <Navbar.Brand href="#home">Auth-Chain</Navbar.Brand>
+    <Nav className="me-auto">
+      <Nav.Link onClick={()=>this.setState({status:'register'})}>Register</Nav.Link>
+      <Nav.Link onClick={()=>this.setState({status:'login'})}>Login</Nav.Link>
+    </Nav>
+    </Container>
+  </Navbar>
         <div className="container-fluid mt-5">
           <div className="row">
-            <p>{this.state.account}</p>
-            <button onClick={()=>this.createState()}>Create</button>
-            <button onClick={()=>this.checkState()}>Check</button>
+            
             <main role="main" className="col-lg-12 d-flex text-center">
               <div className="content mr-auto ml-auto">
-                <a
-                  href="http://www.dappuniversity.com/bootcamp"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                </a>
-                <h1>AuthChain</h1>
+              <p>Current active account : <b>{this.state.account}</b></p>
+               
+                {
+                  this.state.status == 'register' ? <Register twofa={this.state.twofa} account={this.state.account}/> :
+                  <Login twofa={this.state.twofa} account={this.state.account} />
+                }
+                
               </div>
             </main>
           </div>

@@ -1,8 +1,7 @@
 pragma solidity ^0.5.0;
 
 contract TwoFA { 
-    string public name = "AuthMeWithChain";
-    
+    string public name = "Auth-Chain";
     //Struct
     struct Document{
         address owner;
@@ -11,6 +10,7 @@ contract TwoFA {
     }
 
     //mapping
+    //secret_key_of_organization ----> address ----> data
     mapping(uint => mapping(address => Document)) public docs;
 
     //events
@@ -20,13 +20,10 @@ contract TwoFA {
         bool isRevoked
     );
 
-    function createDocument(uint  _secret) public {
+    function createDocument(uint256  _secret) public {
         docs[_secret][msg.sender] = Document(msg.sender,true,false);
         emit CreatedDocument(msg.sender,true,false);
     }
 
-//     //check the docement exist,document is not revoked and document is intended to the specific organization
-//     function isDocumentExist(uint _secret) public view returns (bool) {
-//     return (docs[msg.sender].isValue == true && docs[msg.sender].isRevoked == false && docs[msg.sender].secret == _secret);
-//   }
+
 }

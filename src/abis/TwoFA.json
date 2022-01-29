@@ -87,11 +87,11 @@
       "signature": "0xf463edd1"
     }
   ],
-  "bytecode": "0x60806040526040805190810160405280600f81526020017f417574684d6557697468436861696e00000000000000000000000000000000008152506000908051906020019061004f929190610062565b5034801561005c57600080fd5b50610107565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100a357805160ff19168380011785556100d1565b828001600101855582156100d1579182015b828111156100d05782518255916020019190600101906100b5565b5b5090506100de91906100e2565b5090565b61010491905b808211156101005760008160009055506001016100e8565b5090565b90565b6104a5806101166000396000f3fe608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306fdde031461005c578063a605e2f2146100ec578063f463edd11461019d575b600080fd5b34801561006857600080fd5b506100716101d8565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100b1578082015181840152602081019050610096565b50505050905090810190601f1680156100de5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b3480156100f857600080fd5b506101456004803603604081101561010f57600080fd5b8101908080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610276565b604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018315151515815260200182151515158152602001935050505060405180910390f35b3480156101a957600080fd5b506101d6600480360360208110156101c057600080fd5b81019080803590602001909291905050506102e7565b005b60008054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561026e5780601f106102435761010080835404028352916020019161026e565b820191906000526020600020905b81548152906001019060200180831161025157829003601f168201915b505050505081565b6001602052816000526040600020602052806000526040600020600091509150508060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16908060000160149054906101000a900460ff16908060000160159054906101000a900460ff16905083565b6060604051908101604052803373ffffffffffffffffffffffffffffffffffffffff168152602001600115158152602001600015158152506001600083815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008201518160000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555060208201518160000160146101000a81548160ff02191690831515021790555060408201518160000160156101000a81548160ff0219169083151502179055509050507ffe7139cb48a84fde625ac3a9b79c718620c9322a54d450587a535e27c0429f4c3360016000604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018315151515815260200182151515158152602001935050505060405180910390a15056fea165627a7a723058204458fd092d349c22148950c08a10e47fb915519efd52bfa847fb3139f74220560029",
-  "deployedBytecode": "0x608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306fdde031461005c578063a605e2f2146100ec578063f463edd11461019d575b600080fd5b34801561006857600080fd5b506100716101d8565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100b1578082015181840152602081019050610096565b50505050905090810190601f1680156100de5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b3480156100f857600080fd5b506101456004803603604081101561010f57600080fd5b8101908080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610276565b604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018315151515815260200182151515158152602001935050505060405180910390f35b3480156101a957600080fd5b506101d6600480360360208110156101c057600080fd5b81019080803590602001909291905050506102e7565b005b60008054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561026e5780601f106102435761010080835404028352916020019161026e565b820191906000526020600020905b81548152906001019060200180831161025157829003601f168201915b505050505081565b6001602052816000526040600020602052806000526040600020600091509150508060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16908060000160149054906101000a900460ff16908060000160159054906101000a900460ff16905083565b6060604051908101604052803373ffffffffffffffffffffffffffffffffffffffff168152602001600115158152602001600015158152506001600083815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008201518160000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555060208201518160000160146101000a81548160ff02191690831515021790555060408201518160000160156101000a81548160ff0219169083151502179055509050507ffe7139cb48a84fde625ac3a9b79c718620c9322a54d450587a535e27c0429f4c3360016000604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018315151515815260200182151515158152602001935050505060405180910390a15056fea165627a7a723058204458fd092d349c22148950c08a10e47fb915519efd52bfa847fb3139f74220560029",
-  "sourceMap": "27:907:1:-;;;50:38;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;27:907;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:907:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
-  "deployedSourceMap": "27:907:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;50:38;;8:9:-1;5:2;;;30:1;27;20:12;5:2;50:38:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;50:38:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;236:57;;8:9:-1;5:2;;;30:1;27;20:12;5:2;236:57:1;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;236:57:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;426:178;;8:9:-1;5:2;;;30:1;27;20:12;5:2;426:178:1;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;426:178:1;;;;;;;;;;;;;;;;;;;;50:38;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;236:57::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;426:178::-;511:31;;;;;;;;;520:10;511:31;;;;;;531:4;511:31;;;;;;536:5;511:31;;;;;483:4;:13;488:7;483:13;;;;;;;;;;;:25;497:10;483:25;;;;;;;;;;;;;;;:59;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;558:38;574:10;585:4;590:5;558:38;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;426:178;:::o",
-  "source": "pragma solidity ^0.5.0;\r\n\r\ncontract TwoFA { \r\n    string public name = \"AuthMeWithChain\";\r\n    \r\n    //Struct\r\n    struct Document{\r\n        address owner;\r\n        bool isValue;\r\n        bool isRevoked;   \r\n    }\r\n\r\n    //mapping\r\n    mapping(uint => mapping(address => Document)) public docs;\r\n\r\n    //events\r\n    event CreatedDocument (\r\n        address owner,\r\n        bool isValue,\r\n        bool isRevoked\r\n    );\r\n\r\n    function createDocument(uint  _secret) public {\r\n        docs[_secret][msg.sender] = Document(msg.sender,true,false);\r\n        emit CreatedDocument(msg.sender,true,false);\r\n    }\r\n\r\n//     //check the docement exist,document is not revoked and document is intended to the specific organization\r\n//     function isDocumentExist(uint _secret) public view returns (bool) {\r\n//     return (docs[msg.sender].isValue == true && docs[msg.sender].isRevoked == false && docs[msg.sender].secret == _secret);\r\n//   }\r\n}",
+  "bytecode": "0x60806040526040805190810160405280600a81526020017f417574682d436861696e000000000000000000000000000000000000000000008152506000908051906020019061004f929190610062565b5034801561005c57600080fd5b50610107565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100a357805160ff19168380011785556100d1565b828001600101855582156100d1579182015b828111156100d05782518255916020019190600101906100b5565b5b5090506100de91906100e2565b5090565b61010491905b808211156101005760008160009055506001016100e8565b5090565b90565b6104a5806101166000396000f3fe608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306fdde031461005c578063a605e2f2146100ec578063f463edd11461019d575b600080fd5b34801561006857600080fd5b506100716101d8565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100b1578082015181840152602081019050610096565b50505050905090810190601f1680156100de5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b3480156100f857600080fd5b506101456004803603604081101561010f57600080fd5b8101908080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610276565b604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018315151515815260200182151515158152602001935050505060405180910390f35b3480156101a957600080fd5b506101d6600480360360208110156101c057600080fd5b81019080803590602001909291905050506102e7565b005b60008054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561026e5780601f106102435761010080835404028352916020019161026e565b820191906000526020600020905b81548152906001019060200180831161025157829003601f168201915b505050505081565b6001602052816000526040600020602052806000526040600020600091509150508060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16908060000160149054906101000a900460ff16908060000160159054906101000a900460ff16905083565b6060604051908101604052803373ffffffffffffffffffffffffffffffffffffffff168152602001600115158152602001600015158152506001600083815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008201518160000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555060208201518160000160146101000a81548160ff02191690831515021790555060408201518160000160156101000a81548160ff0219169083151502179055509050507ffe7139cb48a84fde625ac3a9b79c718620c9322a54d450587a535e27c0429f4c3360016000604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018315151515815260200182151515158152602001935050505060405180910390a15056fea165627a7a72305820838660c88828a3bbfb7428a7001833a8df6599ec62b102b6a355277dc0e45f5e0029",
+  "deployedBytecode": "0x608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306fdde031461005c578063a605e2f2146100ec578063f463edd11461019d575b600080fd5b34801561006857600080fd5b506100716101d8565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100b1578082015181840152602081019050610096565b50505050905090810190601f1680156100de5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b3480156100f857600080fd5b506101456004803603604081101561010f57600080fd5b8101908080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610276565b604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018315151515815260200182151515158152602001935050505060405180910390f35b3480156101a957600080fd5b506101d6600480360360208110156101c057600080fd5b81019080803590602001909291905050506102e7565b005b60008054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561026e5780601f106102435761010080835404028352916020019161026e565b820191906000526020600020905b81548152906001019060200180831161025157829003601f168201915b505050505081565b6001602052816000526040600020602052806000526040600020600091509150508060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16908060000160149054906101000a900460ff16908060000160159054906101000a900460ff16905083565b6060604051908101604052803373ffffffffffffffffffffffffffffffffffffffff168152602001600115158152602001600015158152506001600083815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008201518160000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555060208201518160000160146101000a81548160ff02191690831515021790555060408201518160000160156101000a81548160ff0219169083151502179055509050507ffe7139cb48a84fde625ac3a9b79c718620c9322a54d450587a535e27c0429f4c3360016000604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018315151515815260200182151515158152602001935050505060405180910390a15056fea165627a7a72305820838660c88828a3bbfb7428a7001833a8df6599ec62b102b6a355277dc0e45f5e0029",
+  "sourceMap": "27:635:1:-;;;50:33;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;27:635;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:635:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "27:635:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;50:33;;8:9:-1;5:2;;;30:1;27;20:12;5:2;50:33:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;50:33:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;284:57;;8:9:-1;5:2;;;30:1;27;20:12;5:2;284:57:1;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;284:57:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;474:181;;8:9:-1;5:2;;;30:1;27;20:12;5:2;474:181:1;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;474:181:1;;;;;;;;;;;;;;;;;;;;50:33;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;284:57::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;474:181::-;562:31;;;;;;;;;571:10;562:31;;;;;;582:4;562:31;;;;;;587:5;562:31;;;;;534:4;:13;539:7;534:13;;;;;;;;;;;:25;548:10;534:25;;;;;;;;;;;;;;;:59;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;609:38;625:10;636:4;641:5;609:38;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;474:181;:::o",
+  "source": "pragma solidity ^0.5.0;\r\n\r\ncontract TwoFA { \r\n    string public name = \"Auth-Chain\";\r\n    //Struct\r\n    struct Document{\r\n        address owner;\r\n        bool isValue;\r\n        bool isRevoked;   \r\n    }\r\n\r\n    //mapping\r\n    //secret_key_of_organization ----> address ----> data\r\n    mapping(uint => mapping(address => Document)) public docs;\r\n\r\n    //events\r\n    event CreatedDocument (\r\n        address owner,\r\n        bool isValue,\r\n        bool isRevoked\r\n    );\r\n\r\n    function createDocument(uint256  _secret) public {\r\n        docs[_secret][msg.sender] = Document(msg.sender,true,false);\r\n        emit CreatedDocument(msg.sender,true,false);\r\n    }\r\n\r\n\r\n}",
   "sourcePath": "C:/Users/user/Desktop/Blockchain/AuthMeWithChain/src/contracts/TwoFA.sol",
   "ast": {
     "absolutePath": "/C/Users/user/Desktop/Blockchain/AuthMeWithChain/src/contracts/TwoFA.sol",
@@ -133,7 +133,7 @@
             "name": "name",
             "nodeType": "VariableDeclaration",
             "scope": 110,
-            "src": "50:38:1",
+            "src": "50:33:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -152,7 +152,7 @@
             },
             "value": {
               "argumentTypes": null,
-              "hexValue": "417574684d6557697468436861696e",
+              "hexValue": "417574682d436861696e",
               "id": 60,
               "isConstant": false,
               "isLValue": false,
@@ -160,13 +160,13 @@
               "kind": "string",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "71:17:1",
+              "src": "71:12:1",
               "subdenomination": null,
               "typeDescriptions": {
-                "typeIdentifier": "t_stringliteral_a2892d1b6beff7b20da4ff5e84bebf8de2555c7df3cd88b5f049f635edb1e7bb",
-                "typeString": "literal_string \"AuthMeWithChain\""
+                "typeIdentifier": "t_stringliteral_73d3b069af3e33972018cf2cbaa29a32200551249e70b0bdc99bf9857e40c463",
+                "typeString": "literal_string \"Auth-Chain\""
               },
-              "value": "AuthMeWithChain"
+              "value": "Auth-Chain"
             },
             "visibility": "public"
           },
@@ -180,7 +180,7 @@
                 "name": "owner",
                 "nodeType": "VariableDeclaration",
                 "scope": 68,
-                "src": "141:13:1",
+                "src": "130:13:1",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -191,7 +191,7 @@
                   "id": 62,
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
-                  "src": "141:7:1",
+                  "src": "130:7:1",
                   "stateMutability": "nonpayable",
                   "typeDescriptions": {
                     "typeIdentifier": "t_address",
@@ -207,7 +207,7 @@
                 "name": "isValue",
                 "nodeType": "VariableDeclaration",
                 "scope": 68,
-                "src": "165:12:1",
+                "src": "154:12:1",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -218,7 +218,7 @@
                   "id": 64,
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
-                  "src": "165:4:1",
+                  "src": "154:4:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bool",
                     "typeString": "bool"
@@ -233,7 +233,7 @@
                 "name": "isRevoked",
                 "nodeType": "VariableDeclaration",
                 "scope": 68,
-                "src": "188:14:1",
+                "src": "177:14:1",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -244,7 +244,7 @@
                   "id": 66,
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
-                  "src": "188:4:1",
+                  "src": "177:4:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bool",
                     "typeString": "bool"
@@ -257,7 +257,7 @@
             "name": "Document",
             "nodeType": "StructDefinition",
             "scope": 110,
-            "src": "115:98:1",
+            "src": "104:98:1",
             "visibility": "public"
           },
           {
@@ -266,7 +266,7 @@
             "name": "docs",
             "nodeType": "VariableDeclaration",
             "scope": 110,
-            "src": "236:57:1",
+            "src": "284:57:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -279,14 +279,14 @@
                 "id": 69,
                 "name": "uint",
                 "nodeType": "ElementaryTypeName",
-                "src": "244:4:1",
+                "src": "292:4:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
                 }
               },
               "nodeType": "Mapping",
-              "src": "236:45:1",
+              "src": "284:45:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_uint256_$_t_mapping$_t_address_$_t_struct$_Document_$68_storage_$_$",
                 "typeString": "mapping(uint256 => mapping(address => struct TwoFA.Document))"
@@ -297,14 +297,14 @@
                   "id": 70,
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
-                  "src": "260:7:1",
+                  "src": "308:7:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_address",
                     "typeString": "address"
                   }
                 },
                 "nodeType": "Mapping",
-                "src": "252:28:1",
+                "src": "300:28:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Document_$68_storage_$",
                   "typeString": "mapping(address => struct TwoFA.Document)"
@@ -315,7 +315,7 @@
                   "name": "Document",
                   "nodeType": "UserDefinedTypeName",
                   "referencedDeclaration": 68,
-                  "src": "271:8:1",
+                  "src": "319:8:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_struct$_Document_$68_storage_ptr",
                     "typeString": "struct TwoFA.Document"
@@ -343,7 +343,7 @@
                   "name": "owner",
                   "nodeType": "VariableDeclaration",
                   "scope": 82,
-                  "src": "349:13:1",
+                  "src": "397:13:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -354,7 +354,7 @@
                     "id": 75,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "349:7:1",
+                    "src": "397:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -371,7 +371,7 @@
                   "name": "isValue",
                   "nodeType": "VariableDeclaration",
                   "scope": 82,
-                  "src": "373:12:1",
+                  "src": "421:12:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -382,7 +382,7 @@
                     "id": 77,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "373:4:1",
+                    "src": "421:4:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -398,7 +398,7 @@
                   "name": "isRevoked",
                   "nodeType": "VariableDeclaration",
                   "scope": 82,
-                  "src": "396:14:1",
+                  "src": "444:14:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -409,7 +409,7 @@
                     "id": 79,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "396:4:1",
+                    "src": "444:4:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -419,15 +419,15 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "338:79:1"
+              "src": "386:79:1"
             },
-            "src": "316:102:1"
+            "src": "364:102:1"
           },
           {
             "body": {
               "id": 108,
               "nodeType": "Block",
-              "src": "472:132:1",
+              "src": "523:132:1",
               "statements": [
                 {
                   "expression": {
@@ -448,7 +448,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 74,
-                          "src": "483:4:1",
+                          "src": "534:4:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_uint256_$_t_mapping$_t_address_$_t_struct$_Document_$68_storage_$_$",
                             "typeString": "mapping(uint256 => mapping(address => struct TwoFA.Document storage ref))"
@@ -462,7 +462,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 84,
-                          "src": "488:7:1",
+                          "src": "539:7:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -473,7 +473,7 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "483:13:1",
+                        "src": "534:13:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Document_$68_storage_$",
                           "typeString": "mapping(address => struct TwoFA.Document storage ref)"
@@ -489,7 +489,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 125,
-                          "src": "497:3:1",
+                          "src": "548:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
@@ -503,7 +503,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "497:10:1",
+                        "src": "548:10:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
@@ -514,7 +514,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "483:25:1",
+                      "src": "534:25:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Document_$68_storage",
                         "typeString": "struct TwoFA.Document storage ref"
@@ -534,7 +534,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 125,
-                            "src": "520:3:1",
+                            "src": "571:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
@@ -548,7 +548,7 @@
                           "memberName": "sender",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": null,
-                          "src": "520:10:1",
+                          "src": "571:10:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address_payable",
                             "typeString": "address payable"
@@ -564,7 +564,7 @@
                           "kind": "bool",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "531:4:1",
+                          "src": "582:4:1",
                           "subdenomination": null,
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
@@ -582,7 +582,7 @@
                           "kind": "bool",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "536:5:1",
+                          "src": "587:5:1",
                           "subdenomination": null,
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
@@ -611,7 +611,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 68,
-                        "src": "511:8:1",
+                        "src": "562:8:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_type$_t_struct$_Document_$68_storage_ptr_$",
                           "typeString": "type(struct TwoFA.Document storage pointer)"
@@ -625,13 +625,13 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "511:31:1",
+                      "src": "562:31:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Document_$68_memory",
                         "typeString": "struct TwoFA.Document memory"
                       }
                     },
-                    "src": "483:59:1",
+                    "src": "534:59:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Document_$68_storage",
                       "typeString": "struct TwoFA.Document storage ref"
@@ -639,7 +639,7 @@
                   },
                   "id": 100,
                   "nodeType": "ExpressionStatement",
-                  "src": "483:59:1"
+                  "src": "534:59:1"
                 },
                 {
                   "eventCall": {
@@ -654,7 +654,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 125,
-                          "src": "574:3:1",
+                          "src": "625:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
@@ -668,7 +668,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "574:10:1",
+                        "src": "625:10:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
@@ -684,7 +684,7 @@
                         "kind": "bool",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "585:4:1",
+                        "src": "636:4:1",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
@@ -702,7 +702,7 @@
                         "kind": "bool",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "590:5:1",
+                        "src": "641:5:1",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
@@ -731,7 +731,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 82,
-                      "src": "558:15:1",
+                      "src": "609:15:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_bool_$_t_bool_$returns$__$",
                         "typeString": "function (address,bool,bool)"
@@ -745,7 +745,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "558:38:1",
+                    "src": "609:38:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -753,7 +753,7 @@
                   },
                   "id": 107,
                   "nodeType": "EmitStatement",
-                  "src": "553:43:1"
+                  "src": "604:43:1"
                 }
               ]
             },
@@ -774,7 +774,7 @@
                   "name": "_secret",
                   "nodeType": "VariableDeclaration",
                   "scope": 109,
-                  "src": "450:13:1",
+                  "src": "498:16:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -783,9 +783,9 @@
                   },
                   "typeName": {
                     "id": 83,
-                    "name": "uint",
+                    "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "450:4:1",
+                    "src": "498:7:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -795,26 +795,26 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "449:15:1"
+              "src": "497:18:1"
             },
             "returnParameters": {
               "id": 86,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "472:0:1"
+              "src": "523:0:1"
             },
             "scope": 110,
-            "src": "426:178:1",
+            "src": "474:181:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 111,
-        "src": "27:907:1"
+        "src": "27:635:1"
       }
     ],
-    "src": "0:934:1"
+    "src": "0:662:1"
   },
   "legacyAST": {
     "absolutePath": "/C/Users/user/Desktop/Blockchain/AuthMeWithChain/src/contracts/TwoFA.sol",
@@ -856,7 +856,7 @@
             "name": "name",
             "nodeType": "VariableDeclaration",
             "scope": 110,
-            "src": "50:38:1",
+            "src": "50:33:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -875,7 +875,7 @@
             },
             "value": {
               "argumentTypes": null,
-              "hexValue": "417574684d6557697468436861696e",
+              "hexValue": "417574682d436861696e",
               "id": 60,
               "isConstant": false,
               "isLValue": false,
@@ -883,13 +883,13 @@
               "kind": "string",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "71:17:1",
+              "src": "71:12:1",
               "subdenomination": null,
               "typeDescriptions": {
-                "typeIdentifier": "t_stringliteral_a2892d1b6beff7b20da4ff5e84bebf8de2555c7df3cd88b5f049f635edb1e7bb",
-                "typeString": "literal_string \"AuthMeWithChain\""
+                "typeIdentifier": "t_stringliteral_73d3b069af3e33972018cf2cbaa29a32200551249e70b0bdc99bf9857e40c463",
+                "typeString": "literal_string \"Auth-Chain\""
               },
-              "value": "AuthMeWithChain"
+              "value": "Auth-Chain"
             },
             "visibility": "public"
           },
@@ -903,7 +903,7 @@
                 "name": "owner",
                 "nodeType": "VariableDeclaration",
                 "scope": 68,
-                "src": "141:13:1",
+                "src": "130:13:1",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -914,7 +914,7 @@
                   "id": 62,
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
-                  "src": "141:7:1",
+                  "src": "130:7:1",
                   "stateMutability": "nonpayable",
                   "typeDescriptions": {
                     "typeIdentifier": "t_address",
@@ -930,7 +930,7 @@
                 "name": "isValue",
                 "nodeType": "VariableDeclaration",
                 "scope": 68,
-                "src": "165:12:1",
+                "src": "154:12:1",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -941,7 +941,7 @@
                   "id": 64,
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
-                  "src": "165:4:1",
+                  "src": "154:4:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bool",
                     "typeString": "bool"
@@ -956,7 +956,7 @@
                 "name": "isRevoked",
                 "nodeType": "VariableDeclaration",
                 "scope": 68,
-                "src": "188:14:1",
+                "src": "177:14:1",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -967,7 +967,7 @@
                   "id": 66,
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
-                  "src": "188:4:1",
+                  "src": "177:4:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bool",
                     "typeString": "bool"
@@ -980,7 +980,7 @@
             "name": "Document",
             "nodeType": "StructDefinition",
             "scope": 110,
-            "src": "115:98:1",
+            "src": "104:98:1",
             "visibility": "public"
           },
           {
@@ -989,7 +989,7 @@
             "name": "docs",
             "nodeType": "VariableDeclaration",
             "scope": 110,
-            "src": "236:57:1",
+            "src": "284:57:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1002,14 +1002,14 @@
                 "id": 69,
                 "name": "uint",
                 "nodeType": "ElementaryTypeName",
-                "src": "244:4:1",
+                "src": "292:4:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
                 }
               },
               "nodeType": "Mapping",
-              "src": "236:45:1",
+              "src": "284:45:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_uint256_$_t_mapping$_t_address_$_t_struct$_Document_$68_storage_$_$",
                 "typeString": "mapping(uint256 => mapping(address => struct TwoFA.Document))"
@@ -1020,14 +1020,14 @@
                   "id": 70,
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
-                  "src": "260:7:1",
+                  "src": "308:7:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_address",
                     "typeString": "address"
                   }
                 },
                 "nodeType": "Mapping",
-                "src": "252:28:1",
+                "src": "300:28:1",
                 "typeDescriptions": {
                   "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Document_$68_storage_$",
                   "typeString": "mapping(address => struct TwoFA.Document)"
@@ -1038,7 +1038,7 @@
                   "name": "Document",
                   "nodeType": "UserDefinedTypeName",
                   "referencedDeclaration": 68,
-                  "src": "271:8:1",
+                  "src": "319:8:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_struct$_Document_$68_storage_ptr",
                     "typeString": "struct TwoFA.Document"
@@ -1066,7 +1066,7 @@
                   "name": "owner",
                   "nodeType": "VariableDeclaration",
                   "scope": 82,
-                  "src": "349:13:1",
+                  "src": "397:13:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1077,7 +1077,7 @@
                     "id": 75,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "349:7:1",
+                    "src": "397:7:1",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1094,7 +1094,7 @@
                   "name": "isValue",
                   "nodeType": "VariableDeclaration",
                   "scope": 82,
-                  "src": "373:12:1",
+                  "src": "421:12:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1105,7 +1105,7 @@
                     "id": 77,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "373:4:1",
+                    "src": "421:4:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1121,7 +1121,7 @@
                   "name": "isRevoked",
                   "nodeType": "VariableDeclaration",
                   "scope": 82,
-                  "src": "396:14:1",
+                  "src": "444:14:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1132,7 +1132,7 @@
                     "id": 79,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "396:4:1",
+                    "src": "444:4:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1142,15 +1142,15 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "338:79:1"
+              "src": "386:79:1"
             },
-            "src": "316:102:1"
+            "src": "364:102:1"
           },
           {
             "body": {
               "id": 108,
               "nodeType": "Block",
-              "src": "472:132:1",
+              "src": "523:132:1",
               "statements": [
                 {
                   "expression": {
@@ -1171,7 +1171,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 74,
-                          "src": "483:4:1",
+                          "src": "534:4:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_uint256_$_t_mapping$_t_address_$_t_struct$_Document_$68_storage_$_$",
                             "typeString": "mapping(uint256 => mapping(address => struct TwoFA.Document storage ref))"
@@ -1185,7 +1185,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 84,
-                          "src": "488:7:1",
+                          "src": "539:7:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -1196,7 +1196,7 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "483:13:1",
+                        "src": "534:13:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Document_$68_storage_$",
                           "typeString": "mapping(address => struct TwoFA.Document storage ref)"
@@ -1212,7 +1212,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 125,
-                          "src": "497:3:1",
+                          "src": "548:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
@@ -1226,7 +1226,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "497:10:1",
+                        "src": "548:10:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
@@ -1237,7 +1237,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "483:25:1",
+                      "src": "534:25:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Document_$68_storage",
                         "typeString": "struct TwoFA.Document storage ref"
@@ -1257,7 +1257,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 125,
-                            "src": "520:3:1",
+                            "src": "571:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
@@ -1271,7 +1271,7 @@
                           "memberName": "sender",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": null,
-                          "src": "520:10:1",
+                          "src": "571:10:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address_payable",
                             "typeString": "address payable"
@@ -1287,7 +1287,7 @@
                           "kind": "bool",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "531:4:1",
+                          "src": "582:4:1",
                           "subdenomination": null,
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
@@ -1305,7 +1305,7 @@
                           "kind": "bool",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "536:5:1",
+                          "src": "587:5:1",
                           "subdenomination": null,
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
@@ -1334,7 +1334,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 68,
-                        "src": "511:8:1",
+                        "src": "562:8:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_type$_t_struct$_Document_$68_storage_ptr_$",
                           "typeString": "type(struct TwoFA.Document storage pointer)"
@@ -1348,13 +1348,13 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "511:31:1",
+                      "src": "562:31:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Document_$68_memory",
                         "typeString": "struct TwoFA.Document memory"
                       }
                     },
-                    "src": "483:59:1",
+                    "src": "534:59:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Document_$68_storage",
                       "typeString": "struct TwoFA.Document storage ref"
@@ -1362,7 +1362,7 @@
                   },
                   "id": 100,
                   "nodeType": "ExpressionStatement",
-                  "src": "483:59:1"
+                  "src": "534:59:1"
                 },
                 {
                   "eventCall": {
@@ -1377,7 +1377,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 125,
-                          "src": "574:3:1",
+                          "src": "625:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
@@ -1391,7 +1391,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "574:10:1",
+                        "src": "625:10:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
@@ -1407,7 +1407,7 @@
                         "kind": "bool",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "585:4:1",
+                        "src": "636:4:1",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
@@ -1425,7 +1425,7 @@
                         "kind": "bool",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "590:5:1",
+                        "src": "641:5:1",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
@@ -1454,7 +1454,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 82,
-                      "src": "558:15:1",
+                      "src": "609:15:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_bool_$_t_bool_$returns$__$",
                         "typeString": "function (address,bool,bool)"
@@ -1468,7 +1468,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "558:38:1",
+                    "src": "609:38:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -1476,7 +1476,7 @@
                   },
                   "id": 107,
                   "nodeType": "EmitStatement",
-                  "src": "553:43:1"
+                  "src": "604:43:1"
                 }
               ]
             },
@@ -1497,7 +1497,7 @@
                   "name": "_secret",
                   "nodeType": "VariableDeclaration",
                   "scope": 109,
-                  "src": "450:13:1",
+                  "src": "498:16:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1506,9 +1506,9 @@
                   },
                   "typeName": {
                     "id": 83,
-                    "name": "uint",
+                    "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "450:4:1",
+                    "src": "498:7:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1518,26 +1518,26 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "449:15:1"
+              "src": "497:18:1"
             },
             "returnParameters": {
               "id": 86,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "472:0:1"
+              "src": "523:0:1"
             },
             "scope": 110,
-            "src": "426:178:1",
+            "src": "474:181:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 111,
-        "src": "27:907:1"
+        "src": "27:635:1"
       }
     ],
-    "src": "0:934:1"
+    "src": "0:662:1"
   },
   "compiler": {
     "name": "solc",
@@ -1547,12 +1547,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x1175FA78d5452d02Fc0Ef442853Bb290dd5377bc",
-      "transactionHash": "0xea39af422beecf80bdf9085dd38e401d49e8407641c9beb33e6e2fada6c7b301"
+      "address": "0x45699B2797332cafb2Bf9E1422CBd4c5e6223D4B",
+      "transactionHash": "0xcd92561f2bd95b9cae57aa2e6a926712fa95a29093791825872cb3ed1998ecb1"
     }
   },
   "schemaVersion": "3.0.2",
-  "updatedAt": "2022-01-28T14:48:31.301Z",
+  "updatedAt": "2022-01-29T14:17:21.387Z",
   "devdoc": {
     "methods": {}
   },

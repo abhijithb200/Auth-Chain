@@ -1,5 +1,5 @@
 const { assert } = require('chai');
-
+const { web3 } = require('web3');
 const TwoFA = artifacts.require("TwoFA");
 
 require('chai')
@@ -21,17 +21,16 @@ contract('TwoFA',([deployer , seller , buyer])=>{
             assert.notEqual(address,null)
             assert.notEqual(address,undefined)
         })
-
-        
     })
     describe('document', async ()=>{
         let result
-        const strs = 1224234234234
+        const web_secret = '1212442342342342123123123112123123123123123123123123123123123123123123123123123231233'
+        const uniqueid = 1
         before(async ()=>{
-            result = await twofa.createDocument(strs,{from:'0xf60A7688f29Efb3DC935f1C22345542891367b63'})
+            result = await twofa.createDocument(web_secret,uniqueid,{from:'0xf60A7688f29Efb3DC935f1C22345542891367b63'})
         })
         it('has a name',async()=>{
-            const name = await twofa.docs(1224234234234,'0xf60A7688f29Efb3DC935f1C22345542891367b63')
+            const name = await twofa.docs(web_secret,uniqueid,'0xf60A7688f29Efb3DC935f1C22345542891367b63')
             console.log(name)
         })
         

@@ -1,0 +1,19 @@
+.register{
+    margin:0 100px;
+    background-color: #1F4467;
+    cursor: pointer;
+   
+}
+.register2{
+    background-color: #006fd6;
+}
+.register3{
+    background-color: #83552b;
+}
+
+.register p{
+    padding: 10px 0;
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+}
