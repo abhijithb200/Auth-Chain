@@ -1549,7 +1549,14 @@
       "links": {},
       "address": "0x45699B2797332cafb2Bf9E1422CBd4c5e6223D4B",
       "transactionHash": "0xcd92561f2bd95b9cae57aa2e6a926712fa95a29093791825872cb3ed1998ecb1"
+    },
+    "42": {
+      "events": {},
+      "links": {},
+      "address": "0x78cdf9998fa8c3da13c35f4fc9080a1c8b5e1d6c",
+      "transactionHash": "0x7f55a765a90aca317a65d27ad5fa937ed61704b94c33bc290027275edfac3732"
     }
+
   },
   "schemaVersion": "3.0.2",
   "updatedAt": "2022-01-29T14:17:21.387Z",

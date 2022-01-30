@@ -10,8 +10,8 @@ class Register extends Component {
     const secret = process.env.REACT_APP_SECRET_NAME.toString()
     const addr = this.props.account
     this.props.twofa.methods.createDocument(secret).send({from: addr})
-      .once('receipt',(receipt)=>{
-        console.log(receipt,'hey')
+      .on('receipt',(receipt)=>{
+        console.log(receipt)
       })
   }
 
