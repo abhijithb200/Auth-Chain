@@ -3,7 +3,8 @@ import { Button ,Form ,Navbar ,Container , Nav,Alert} from 'react-bootstrap';
 
 export class Login extends Component {
     checkState= async ()=>{
-        const secret = process.env.REACT_APP_SECRET_NAME.toString()
+        // const secret = process.env.REACT_APP_SECRET_NAME.toString()
+        const secret = 300
         const a = await this.props.twofa.methods.docs(secret, this.props.account).call()
         if(a.isValue){
             this.setState({showsuccess:true})
@@ -27,7 +28,7 @@ export class Login extends Component {
         <h3>SignIn</h3>
         <div>
         <div className="register">
-    <p onClick={()=>this.checkState()} >Signin with Auth-Chain</p>
+    <p onClick={()=>this.checkState()} >SignIn with Auth-Chain</p>
     </div>
     <div className="register register2">
     <p >Signin with Google</p>

@@ -5,6 +5,7 @@ import TwoFA from '../abis/TwoFA.json'
 import Register from './Register';
 import { Button ,Form ,Navbar ,Container , Nav} from 'react-bootstrap';
 import Login from './Login';
+import Admin from './AdminRegister'
 import { config } from 'dotenv';
 
 
@@ -70,6 +71,8 @@ constructor(props){
     <Nav className="me-auto">
       <Nav.Link onClick={()=>this.setState({status:'register'})}>Register</Nav.Link>
       <Nav.Link onClick={()=>this.setState({status:'login'})}>Login</Nav.Link>
+      <Nav.Link onClick={()=>this.setState({status:'admin'})}>Admin Register</Nav.Link>
+      <Nav.Link onClick={()=>this.setState({status:'login'})}>Add Member</Nav.Link>
     </Nav>
     </Container>
   </Navbar>
@@ -82,7 +85,9 @@ constructor(props){
                
                 {
                   this.state.status == 'register' ? <Register twofa={this.state.twofa} account={this.state.account}/> :
-                  <Login twofa={this.state.twofa} account={this.state.account} />
+                  this.state.status == 'login' ? <Login twofa={this.state.twofa} account={this.state.account} /> : 
+                  this.state.status == 'admin' ? <Admin twofa={this.state.twofa} account={this.state.account} /> : <></>
+
                 }
                 
               </div>

@@ -25,5 +25,20 @@ contract TwoFA {
         emit CreatedDocument(msg.sender,true,false);
     }
 
+   
+    mapping(uint => address) public admindoc;
+
+    function registerAdmin(uint256  _secret) public{
+        admindoc[_secret] = msg.sender;
+        
+    }
+
+    function addMember(uint256  _secret,address _adr)  public {
+        require(admindoc[_secret] == msg.sender,'Not found');
+
+        docs[_secret][_adr] = Document(msg.sender,true,false);
+        emit CreatedDocument(msg.sender,true,false);
+    }
+
 
 }
